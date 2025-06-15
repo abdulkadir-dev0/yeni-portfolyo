@@ -1,0 +1,19 @@
+/* App genel stilleri */
+.App {
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Progress bar animasyonu */
+.progress {
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary-color), var(--primary-light));
+  transition: width 0.5s ease;
+}
